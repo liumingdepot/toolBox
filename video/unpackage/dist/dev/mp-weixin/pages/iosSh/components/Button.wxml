@@ -1,1 +1,0 @@
-<view data-event-opts="{{[['tap',[['$emit',['click']]]]]}}" class="{{['data-v-533a5d16','button',type]}}" bindtap="__e">{{''+label+''}}</view>

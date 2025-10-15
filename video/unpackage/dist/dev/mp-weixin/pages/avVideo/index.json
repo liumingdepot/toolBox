@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "成人",
-  "navigationStyle": "custom",
-  "navigationBarTextStyle": "black",
-  "usingComponents": {
-    "z-paging": "/uni_modules/z-paging/components/z-paging/z-paging",
-    "u-navbar": "/uni_modules/uview-ui/components/u-navbar/u-navbar"
-  }
-}

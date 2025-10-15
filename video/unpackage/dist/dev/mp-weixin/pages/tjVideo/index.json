@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "分类",
-  "navigationStyle": "custom",
-  "navigationBarTextStyle": "black",
-  "usingComponents": {
-    "z-paging": "/uni_modules/z-paging/components/z-paging/z-paging"
-  }
-}

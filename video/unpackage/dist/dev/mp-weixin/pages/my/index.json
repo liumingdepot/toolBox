@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "我的",
-  "navigationStyle": "custom",
-  "navigationBarTextStyle": "black",
-  "usingComponents": {
-    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
-    "u--input": "/uni_modules/uview-ui/components/u--input/u--input"
-  }
-}
