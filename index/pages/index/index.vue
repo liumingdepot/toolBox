@@ -13,14 +13,14 @@
 		data() {
 			return {
 				appid: '__UNI__C814DC9',
-				wgt: 'https://static-mp-95b7f420-768a-4cf1-9d3c-236df626f9f0.next.bspapp.com/__UNI__C814DC9'
+				wgt: 'https://liumingdepot.github.io/toolBox/__UNI__C814DC9'
 			}
 		},
 		methods: {
 			installMP(cb) {
 				// 获取应用
 				mp.getUniMPVersion(this.appid, (ret) => {
-					if (ret.code != 0) { 
+					if (ret.code != 0) {
 						//获取失败时安装应用
 						mp.installUniMP({
 							appid: this.appid,
