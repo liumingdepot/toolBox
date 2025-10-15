@@ -1,0 +1,3 @@
+<template>
+	<web-view src="https://support.qq.com/products/514045"></web-view>
+</template>

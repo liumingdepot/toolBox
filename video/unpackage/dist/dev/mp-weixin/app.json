@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/music/index",
+    "pages/music/play",
+    "pages/home/index",
+    "pages/home/search",
+    "pages/my/index",
+    "pages/tjVideo/index",
+    "pages/avVideo/index",
+    "pages/avVideo/search",
+    "pages/my/nx",
+    "pages/my/yhfk",
+    "pages/my/sc",
+    "pages/video/videoItem",
+    "pages/video/index",
+    "pages/avVideo/video",
+    "pages/dVideo/index",
+    "pages/iosSh/iosSh"
+  ],
+  "subPackages": [],
+  "window": {
+    "backgroundColor": "#ffffff",
+    "backgroundColorTop": "#FFFFFF",
+    "backgroundColorBottom": "#ffffff",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "梭影视频3.0",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#656C7F",
+    "selectedColor": "#0DCA8B",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/music/index",
+        "iconPath": "static/tabBar/icon1@2x.png",
+        "selectedIconPath": "static/tabBar/icon1s@2x.png",
+        "text": "音乐"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/tabBar/icon1@2x.png",
+        "selectedIconPath": "static/tabBar/icon1s@2x.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/dVideo/index",
+        "iconPath": "static/tabBar/icon2@2x.png",
+        "selectedIconPath": "static/tabBar/icon2s@2x.png",
+        "text": "短剧"
+      },
+      {
+        "pagePath": "pages/tjVideo/index",
+        "iconPath": "static/tabBar/icon3@2x.png",
+        "selectedIconPath": "static/tabBar/icon3s@2x.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/tabBar/icon4@2x.png",
+        "selectedIconPath": "static/tabBar/icon4s@2x.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

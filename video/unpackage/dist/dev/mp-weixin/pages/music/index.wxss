@@ -1,0 +1,42 @@
+/* uni.scss */
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.search {
+  margin-top: 30px;
+  padding-top: 25px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 64rpx;
+  border-radius: 40rpx;
+  padding: 0 20rpx;
+  background: rgba(255, 255, 255, 0.5);
+}
+.music {
+  padding: 40rpx;
+}
+.music .list .item {
+  width: 100%;
+  box-sizing: border-box;
+  height: 116rpx;
+  border-radius: 16rpx;
+  background: rgba(255, 255, 255, 0);
+  -webkit-backdrop-filter: blur(40rpx);
+          backdrop-filter: blur(40rpx);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32rpx;
+}
+.music .list .item .ARTIST {
+  font-size: 24rpx;
+  color: #76777a;
+}
+.music .list .item .play {
+  width: 36rpx;
+  height: 36rpx;
+}

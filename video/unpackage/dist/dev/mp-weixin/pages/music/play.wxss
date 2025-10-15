@@ -1,0 +1,30 @@
+/* uni.scss */
+@-webkit-keyframes rotate-data-v-6b9e9717 {
+0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+@keyframes rotate-data-v-6b9e9717 {
+0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+.albumpic.data-v-6b9e9717 {
+  width: 600rpx;
+  height: 600rpx;
+  display: block;
+  margin: 50rpx auto;
+  border-radius: 50%;
+  -webkit-animation: rotate-data-v-6b9e9717 20s linear infinite;
+          animation: rotate-data-v-6b9e9717 20s linear infinite;
+}

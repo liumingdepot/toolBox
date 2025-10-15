@@ -1,0 +1,19 @@
+
+.display.data-v-70b661e2 {
+  background-color: #000;
+  color: #fff;
+  font-size: 48rpx;
+  padding-top: 120rpx;
+  text-align: right;
+  flex-grow: 1;
+}
+.input.data-v-70b661e2 {
+  font-size: 48rpx;
+  opacity: 0.5;
+  margin-bottom: 5rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+}
+
+
+

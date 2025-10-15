@@ -1,0 +1,1 @@
+<view class="box"><web-view class="video" src="{{src}}" data-event-opts="{{[['message',[['fullscreenchange',['$event']]]]]}}" bindmessage="__e"></web-view></view>

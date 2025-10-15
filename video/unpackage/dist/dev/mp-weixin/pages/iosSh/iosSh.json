@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "button": "/pages/iosSh/components/Button",
+    "display": "/pages/iosSh/components/Display"
+  }
+}

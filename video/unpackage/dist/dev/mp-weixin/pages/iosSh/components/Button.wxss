@@ -1,0 +1,35 @@
+
+.w150.data-v-533a5d16{
+	width: 340rpx !important;
+	border-radius: 80rpx !important;
+	text-align: left !important;
+	display: flex;
+	justify-content: start;
+	padding-left: 60rpx;
+}
+.button.data-v-533a5d16 {
+	  /* padding: 20rpx; */
+	  border-radius: 50%;
+	  background-color: #e0e0e0;
+	  border: none;
+	  color: #333;
+	  font-weight: bold;
+	  font-size: 36rpx;
+	  margin: 10rpx;
+	  cursor: pointer;
+	  box-shadow: 0 3rpx 6rpx rgba(0, 0, 0, 0.2);
+	  transition: all 0.2s;
+}
+.button.data-v-533a5d16:hover {
+	background-color: #444;
+}
+.operator.data-v-533a5d16 {
+	background-color: #f5a623;
+	color: #fff;
+}
+.clear.data-v-533a5d16 {
+	background-color: #d3d3d3;
+	color: #000;
+}
+
+

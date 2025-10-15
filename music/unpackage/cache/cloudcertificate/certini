@@ -1,0 +1,4 @@
+[General]
+andrCertfile=package.keystore
+andrCertAlias=__UNI__7D47940
+andrCertPass="CI1GCvaR0EeffQ0xUw3eDw=="

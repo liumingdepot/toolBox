@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				width: 100%;
+				max-width: 750px;
+				margin: 0 auto;
+				background-image: url('./bg.png');
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			
+			img{
+				display: block;
+				margin: 0 auto;
+			}
+			
+			img:nth-child(1){
+				margin-top: 10%;
+				width: 56%;
+			}
+			
+			img:nth-child(2){
+				margin-top: 40px;
+				width: 80%;
+			}
+			
+			img:nth-child(3){
+				margin-top: 20px;
+				width: 80%;
+			}
+			
+			#txt{
+				text-align: center;
+				color: #6bd286;
+				margin: 0 auto;
+				margin-top: 40px;
+				border-radius: 3px;
+			}
+			
+			img:nth-child(5){
+				margin-top: 40px;
+				width: 85%;
+			}
+			
+			img:nth-child(6){
+				position: fixed;
+				bottom: 20px;
+				left: 11%;
+				width: 78%;
+			}
+		</style>
+	</head>
+	<body>
+		<img src="./logo.png">
+		<img src="./ios.png" id="ios">
+		<img src="./an.png" id="an">
+		<div id="txt">浏览器访问</div>
+		<img src="./sm.png">
+		<img src="./ys.png">
+	</body>
+	
+	<script>
+		document.getElementById('an').addEventListener('click',()=>{
+			location.href = 'https://mp-a5313f81-bf92-428c-bae5-cfb9a746f827.cdn.bspapp.com/sy.apk'
+		})
+		document.getElementById('ios').addEventListener('click',()=>{
+			location.href = 'https://testflight.apple.com/join/ziCxNLxj'
+		})
+		document.getElementById('txt').addEventListener('click',()=>{
+			location.href = 'https://static-mp-81337b88-bba5-45c1-9df5-3ec671398f12.next.bspapp.com/'
+		})
+	</script>
+</html>
