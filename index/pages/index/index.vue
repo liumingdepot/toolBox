@@ -1,21 +1,33 @@
 <template>
 	<view class="content">
-		<button type="primary" v-for="(item,index) in navList" :key="index" @click="openMP()">
+		<button type="primary" v-for="(item,index) in state.navList" :key="index" @click="openMP(item)">
 			启动小程序
 		</button>
-		<button type="primary" @click="openMP2Path()">启动水页面</button>
 	</view>
 </template>
 
 <script setup>
+	import { onMounted, reactive } from 'vue';
+
 	const mp = uni.requireNativePlugin('uniMP');
 
 	const bUrl = 'https://liumingdepot.github.io/toolBox'
 
-	function installMP(cb) {
-		// 获取应用
-		
-	}
+	const state = reactive({
+		navList: []
+	})
+
+	onMounted(() => {
+		uni.request({
+			url:`${bUrl}/navs.json`,
+			dataType:'json'
+		}).then(res=>{
+			console.log(res.data);
+			console.log();
+			state.navList = JSON.parse(res.data).navs
+		})	
+	})
+
 
 	function openMP(item) {
 		mp.getUniMPVersion(item.appid, (ret) => {

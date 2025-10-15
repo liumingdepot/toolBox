@@ -1,16 +1,14 @@
-{
-  "navs": [
-    {
-      "name": "视频",
-      "subName":"视频",
-      "appid": "__UNI__C814DC9",
-      "icon": "/video/logo.png",
-    },
-    {
-      "name": "音乐",
-      "subName": "音乐",
-      "appid": "__UNI__C814DC9",
-      "icon": "/music/logo.png",
-    }
-  ]
-}
+[
+  {
+    "name": "视频",
+    "subName":"视频",
+    "appid": "__UNI__C814DC9",
+    "icon": "/video/logo.png",
+  },
+  {
+    "name": "音乐",
+    "subName": "音乐",
+    "appid": "__UNI__C814DC9",
+    "icon": "/music/logo.png",
+  }
+]
