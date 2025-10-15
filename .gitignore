@@ -1,6 +1,16 @@
 /.idea/
-*/unpackage/
-*/node_modules/
-*/dist/
+
+/index/unpackage/
+/index/node_modules/
+/index/dist/
+
+/music/unpackage/
+/music/node_modules/
+/music/dist/
+
+/video/unpackage/
+/video/node_modules/
+/video/dist/
+
 .git
 
